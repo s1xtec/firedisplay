@@ -1,9 +1,9 @@
 {		
 	"name": "FireDisplay",
-	"description": "Teste as telas dos dispositivos com Firefox OS",
+	"description": "Test the screens of devices with Firefox OS",
 	"launch_path": "/index.html",
 	
-	"default_locale": "pt",
+	"default_locale": "en",
 	
 	"icons": {
 		"32": "/design/icon-32.png",
@@ -20,7 +20,7 @@
 		"url": "http://www.s1x.com.br"
 	},
 	
-	"version": "1.0";
+	"version": "1.0",
 	
 	"orientation": ["portrait"]
 }
