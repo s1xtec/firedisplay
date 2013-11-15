@@ -12,8 +12,21 @@
     	
     	<title>FireDisplay</title>
 	</head>
-		
-	<body>
+	
+	<script>
+		function changeLanguage(){
+			//document.write(navigator.language);
+			
+			if (navigator.language.indexOf("en") !== -1) {       
+				window.location = "index_en.html";
+			}
+			else if (navigator.language.indexOf("es") !== -1) {       
+				window.location = "index_es.html";
+			}
+		}
+	</script>
+	
+	<body onload="changeLanguage();">
 		<div id="fundo_menu">
 			<ul>
 				<li onclick="changeDiv('abre_app', 'sobre_app');">Início</li>

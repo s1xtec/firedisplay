@@ -1,0 +1,44 @@
+{		
+	"name": "FireDisplay",
+	"description": "Através deste app você poderá testar as telas dos dispositivos com Firefox OS. É muito simples, escolha a cor desejada para comparação e veja a compatibilidade dela em outros dispositivos.\nO sistema é multilingual e possui a tabela primária RGB e CMYK. Caso encontre algum erro, nos comunique através do menu Feedback.\n\n\nFaça parte do projeto através do link do GitHub http://www.github.com/s1xtec/firedisplay",
+	"launch_path": "/index.html",
+	"default_locale": "pt-BR",
+	
+	"developer": {
+		"name": "S1X Tecnologia",
+		"url": "http://www.s1x.com.br"
+	},
+	
+	"locales": {
+		"es": {
+		  "description": "A través de esta aplicación se puede probar las pantallas de los dispositivos con Firefox OS. Es muy simple, elija el color que desee para la comparación y verlo compatibilidad en otros dispositivos.\nEl sistema es multilingüe y cuenta con la tabla principal de RGB y CMYK. Si usted encuentra un error, háganoslo saber a través del menú Feedback.\n\n\nÚnete a nuestro proyecto en GitHub http://www.github.com/s1xtec/firedisplay",
+		  
+		  "developer": {
+		  	"name": "S1X Tecnología",
+		    "url": "http://www.s1x.com.br"
+		  }
+		},
+		"en": {
+		  "description": "Through this app you can test the screens of devices with Firefox OS. It's very simple, choose the desired color for comparison and look the compatibility on other devices.\nThe system is multilingual and has the primary table RGB and CMYK. If you find an error, let us know through the Feedback menu.\n\n\nHelp us in the project through the link GitHub http://www.github.com/s1xtec/firedisplay",
+		  
+		  "developer": {
+		  	"name": "S1X Technology",
+		    "url": "http://www.s1x.com.br"
+		  }
+		}
+	},
+	
+	"icons": {
+		"32": "/design/icon-32.png",
+		"60": "/design/icon-60.png",
+		"64": "/design/icon-64.png",
+		"90": "/design/icon-90.png",
+		"120": "/design/icon-120.png",
+		"128": "/design/icon-128.png",
+		"256": "/design/icon-256.png"
+	},
+	
+	"version": "1.2",
+	
+	"orientation": ["portrait"]
+}
