@@ -1,6 +1,6 @@
 {		
 	"name": "FireDisplay",
-	"description": "Através deste app você poderá testar as telas dos dispositivos com Firefox OS. É muito simples, escolha a cor desejada para comparação e veja a compatibilidade dela em outros dispositivos.\nO sistema é multilingual e possui a tabela primária RGB e CMYK. Caso encontre algum erro, nos comunique através do menu Feedback.\n\n\nFaça parte do projeto através do link do GitHub http://www.github.com/s1xtec/firedisplay",
+	"description": "Através deste app você poderá testar as telas dos dispositivos com Firefox OS. É muito simples, escolha a cor desejada para comparação e veja a compatibilidade dela em outros dispositivos.<br>O sistema é multilingual e possui a tabela primária RGB e CMYK. Caso encontre algum erro, nos comunique através do menu Feedback.<br><br>Faça parte do projeto através do link do GitHub http://www.github.com/s1xtec/firedisplay",
 	"launch_path": "/index.html",
 	"default_locale": "pt-BR",
 	
@@ -11,7 +11,7 @@
 	
 	"locales": {
 		"es": {
-		  "description": "A través de esta aplicación se puede probar las pantallas de los dispositivos con Firefox OS. Es muy simple, elija el color que desee para la comparación y verlo compatibilidad en otros dispositivos.\nEl sistema es multilingüe y cuenta con la tabla principal de RGB y CMYK. Si usted encuentra un error, háganoslo saber a través del menú Feedback.\n\n\nÚnete a nuestro proyecto en GitHub http://www.github.com/s1xtec/firedisplay",
+		  "description": "A través de esta aplicación se puede probar las pantallas de los dispositivos con Firefox OS. Es muy simple, elija el color que desee para la comparación y verlo compatibilidad en otros dispositivos.<br>El sistema es multilingüe y cuenta con la tabla principal de RGB y CMYK. Si usted encuentra un error, háganoslo saber a través del menú Feedback.<br><br>Únete a nuestro proyecto en GitHub http://www.github.com/s1xtec/firedisplay",
 		  
 		  "developer": {
 		  	"name": "S1X Tecnología",
@@ -19,7 +19,7 @@
 		  }
 		},
 		"en": {
-		  "description": "Through this app you can test the screens of devices with Firefox OS. It's very simple, choose the desired color for comparison and look the compatibility on other devices.\nThe system is multilingual and has the primary table RGB and CMYK. If you find an error, let us know through the Feedback menu.\n\n\nHelp us in the project through the link GitHub http://www.github.com/s1xtec/firedisplay",
+		  "description": "Through this app you can test the screens of devices with Firefox OS. It's very simple, choose the desired color for comparison and look the compatibility on other devices.<br>The system is multilingual and has the primary table RGB and CMYK. If you find an error, let us know through the Feedback menu.<br><br>Help us in the project through the link GitHub http://www.github.com/s1xtec/firedisplay",
 		  
 		  "developer": {
 		  	"name": "S1X Technology",
@@ -38,7 +38,7 @@
 		"256": "/design/icon-256.png"
 	},
 	
-	"version": "1.2",
+	"version": "1.3",
 	
 	"orientation": ["portrait"]
 }
