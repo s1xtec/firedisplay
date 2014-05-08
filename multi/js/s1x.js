@@ -6,26 +6,24 @@ function changeClass(x)
 function changeColor(hexa)
 {
 	if(hexa != "#FFF"){
-		document.getElementById('resposta').style.visibility = 'hidden';
-		document.getElementById('abre_app').style.visibility = 'hidden';
-		document.getElementById('sobre_app').style.visibility = 'hidden';
-		document.getElementById('barra_topo').style.backgroundColor = hexa;
-		document.getElementById('barra_topo').style.borderBottom = '4px solid ' + hexa;
+		$('#pg_externa').css('display', 'none');
+		$('#barra_topo').css('background-color', hexa);
+		$('#barra_topo').css('border-bottom', '4px solid ' + hexa);
 	}
 	else
 	{
-		document.getElementById('resposta').style.visibility = 'visible';
-		document.getElementById('barra_topo').style.backgroundColor = '#E05A13';
-		document.getElementById('barra_topo').style.borderBottom = '4px solid #F39500';
+		$('#pg_externa').css('display', 'inline');
+		$('#barra_topo').css('background-color', '#E05A13');
+		$('#barra_topo').css('border-bottom', '4px solid #F39500');
 	}
-	
-	document.getElementById('fundo_app').style.backgroundColor = hexa;
+
+	$('#fundo_app').css('background-color', hexa);
 	changeClass(fundo_app);
 }
 
-function changeDiv(div_abre, div_fecha)
+function carregaPagina(pg_abre, pg_fecha)
 {
-	 	document.getElementById(div_fecha).style.visibility = 'hidden';
-	 	document.getElementById(div_abre).style.visibility = 'visible';
-	 	changeColor('#FFF');	
+		$(pg_abre).css('visibility', 'visible');
+		$(pg_fecha).css('visibility', 'hidden');
+		changeColor('#FFF');	
 }

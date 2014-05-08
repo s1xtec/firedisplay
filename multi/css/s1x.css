@@ -64,12 +64,10 @@ a {
 	position: relative;
 	overflow: hidden;
 	display: inline-block;
-	height: 710px;
+	height: auto;
 	min-height: 710px;
 	background: #504E51;
 	width: 81%;
-	padding-top: 16px;
-	padding-bottom: 14px;
 	font-size: 16px;
 	font-weight: 400;
 	color: #FFF;
@@ -119,6 +117,9 @@ ul li {
 	padding-left: 50px;
 	list-style: none;
 	color: #FFF;
+	padding-bottom: 16px;	
+	padding-top: 16px;
+
 }
 
 	ul li:before {
@@ -129,8 +130,7 @@ ul li {
 	position: relative;
 	top: 1px;
 	border: 0px;
-	border-top: 1px solid #000;
-	margin-top: 16px;	
+	border-top: 1px solid #000;	
 }
 
 .linha_clara {
@@ -138,7 +138,6 @@ ul li {
 	top: -1px;
 	border: 0px;
 	border-bottom: 1px solid #626263;
-	margin-bottom: 16px;	
 }
 
 .li_secao {
@@ -148,7 +147,7 @@ ul li {
 	background: #626263;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	margin-bottom: -1px;
+	margin-bottom: -2px;
 }
 
 
@@ -217,4 +216,16 @@ ul li {
 	-moz-transition: all .25s linear;
 	-ms-transition: all .25s linear;
     transition: all .50s ease;
+}
+
+.titulo_abre {
+	font-size:46px; 
+	font-weight:900; 
+	letter-spacing: -2px;	
+}
+
+#desc_abre {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 }
