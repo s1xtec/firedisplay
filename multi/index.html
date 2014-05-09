@@ -3,6 +3,7 @@
    <head>
     	<meta http-equiv="Content-Type" content="application/x-web-app-manifest+json; charset=UTF-8">
     	<link rel="stylesheet" href="css/s1x.css">
+    	<link rel="stylesheet" href="css/font-awesome.min.css">
     	
     	<script type="text/javascript" src="js/s1x.js"></script>
 	    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
@@ -38,6 +39,9 @@
 				<hr class="linha_clara"/>
 				<li onclick="changeColor('#000000');" data-l10n-id='menu-5'></li>
 				<hr class="linha_escura"/>
+				<hr class="linha_clara"/>
+				<li onclick="changeColor('rgb_group');" data-l10n-id='menu-12'></li>
+				<hr class="linha_escura"/>
 				<li class="li_secao" data-l10n-id='titulo_menu-2'></li>
 				<hr class="linha_escura" style="margin:0px;"/>
 				<hr class="linha_clara"/>
@@ -51,6 +55,9 @@
 				<hr class="linha_escura"/>
 				<hr class="linha_clara"/>
 				<li onclick="changeColor('#1A171B');" data-l10n-id='menu-9'></li>
+				<hr class="linha_escura"/>
+				<hr class="linha_clara"/>
+				<li onclick="changeColor('cmyk_group');" data-l10n-id='menu-13'></li>
 				<hr class="linha_escura"/>
 				<li class="li_secao" data-l10n-id='titulo_menu-3'></li>
 				<hr class="linha_escura" style="margin:0px;"/>
@@ -66,12 +73,14 @@
 
 		<div id="fundo_app" class="move_app_fechado">
 			<div id="barra_topo">
-				<div id="move_app" onclick="changeClass(fundo_app);">
-					<img class="chama_menu" src="design/menu-08.png" style="top:-9px; left:0px; height:52px;" height="52" border="0">
+				<div id="move_app" class="font-white" onclick="changeClass(fundo_app);">
+					<i class="fa fa-bars font-large"></i>
 				</div>
-				<img class="logo_app" src="design/logo-09.png" style="top:-9px; left:40px; height:52px;" height="52" border="0">
+				<div id="nome_app" class="logo_app font-white">
+					<span class="font-large font-900">Fire</span><span class="font-large font-100">Display</span>
+				</div>
 			</div>
-			
+		
 			<div id="pg_externa">
 				<div id="abre_app">
 					<h1 data-l10n-id='msg_abre' class="titulo_abre"></h1>
@@ -86,7 +95,6 @@
 					www.s1x.com.br<br>
 				</div>
 			</div>
-			
 		</div>		
 	</body>
 </html>
